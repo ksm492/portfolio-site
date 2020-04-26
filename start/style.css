@@ -11,8 +11,8 @@ body {
 body {
   background-color: black;
   color: white;
-  font-family: helvetica;
   font-size: 32px;
+  font-family: 'Roboto', sans-serif;
   text-align: left;
 }
 
@@ -22,6 +22,16 @@ body {
 
 p {
   margin-top: 10px;
+}
+
+#key {
+  display: block;
+  margin: auto;
+  filter: invert(100);
+}
+
+#key:hover {
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 600px) {
