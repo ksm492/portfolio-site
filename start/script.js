@@ -1,21 +1,38 @@
 $(document).ready(function() {
 
-  // Credit for Toggle Background Color: https://www.geeksread.com/javascript-lesson-36-dom-how-to-toggle-background-color/
+  $("#key").on("click", function() {
+    $("body").css({
+      "background-color": "white",
+      "color": "black"
+    });
+  });
 
-  var key = document.querySelector("#key");
-  var backgroundColor = "background-color";
-  var color = "color";
-  var isLight = false;
+  $("#key").on("click", function() {
+    $("#key").css({
+      "filter": "invert(0)"
+    });
+  });
 
-  key.addEventListener("click", function() {
-    if (isLight) {
-      document.body.style.backgroundColor = "black",
-      document.body.style.color= "white";
-      isLight = false;
-    } else {
-      document.body.style.backgroundColor = "white",
-      document.body.style.color= "black";
-      isLight = true;
-    }
+  // Credit for jQuery Rotation Animation: https://codepen.io/seeker5084/pen/VMQGwX
+  $('#key').on("click", function() {
+    $('#key').animate({
+      deg: 90
+    }, {
+      duration: 1000,
+      step: function(now) {
+        $(this).css({
+          transform: 'rotate(' + now + 'deg)'
+        });
+      }
+    });
+  });
+
+  $("#key").on("click", function() {
+    $("#key").animate({
+      top: "250",
+      opacity: 0
+    }, 1000, function() {
+      $("#key").remove()
+    });
   });
 });

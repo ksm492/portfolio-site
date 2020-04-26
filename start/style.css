@@ -27,6 +27,7 @@ p {
 #key {
   display: block;
   margin: auto;
+  position: relative;
   width: 20%;
   filter: invert(100);
 }
