@@ -5,7 +5,6 @@ $(document).ready(function() {
   var key = document.querySelector("#key");
   var backgroundColor = "background-color";
   var color = "color";
-  var filter = "filer";
   var isLight = false;
 
   key.addEventListener("click", function() {
