@@ -20,6 +20,18 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.toolbar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#home-key {
+  margin-top: 4px;
+  margin-right: 4px;
+  width: 4%;
+  height: 4%;
+}
+
 @media only screen and (max-width: 600px) {
   body {
   }
