@@ -9,6 +9,11 @@ body {
 }
 
 body {
+  background-image: url("../web-images/grid.png");
+  background-size: cover;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 
 @media only screen and (max-width: 600px) {
