@@ -23,13 +23,20 @@ body {
 .toolbar {
   display: flex;
   justify-content: flex-end;
+  align-items: flex-end;
 }
 
 #home-key {
-  margin-top: 4px;
-  margin-right: 4px;
+  display: block;
+  margin: auto;
+  position: relative;
+  margin-top: 5px;
+  margin-right: 5px;
   width: 4%;
-  height: 4%;
+}
+
+#home-key:hover {
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 600px) {
