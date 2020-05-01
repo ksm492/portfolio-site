@@ -1,7 +1,7 @@
 html,
 body {
-  margin: 4vw;
-  padding: 4vw;
+  margin: 0;
+  padding: 0;
 }
 
 *, *:before, *:after {
@@ -9,10 +9,6 @@ body {
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
   background-color: black;
   color: white;
   font-size: 2vw;
@@ -20,20 +16,30 @@ body {
   text-align: left;
 }
 
+.content {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  right: 20%;
+}
+
 .animate-typing {
-  font-size: 3vw;
+  display: block;
+  margin: auto;
+  font-size: 4vw;
 }
 
 p {
-  margin-top: 1vw;
-  margin-bottom: 4vw;
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 75px;
 }
 
 #key {
   display: block;
   margin: auto;
   position: relative;
-  width: 9vw;
+  width: 15%;
   filter: invert(100);
 }
 
