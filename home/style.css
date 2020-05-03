@@ -19,15 +19,22 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+#toolbar {
+  padding: 5px;
+}
+
 #name {
   position: absolute;
   margin: 0;
-  font-size: 4vw;
+  font-size: 2.5vw;
+  padding: 2px;
+  background: white;
 }
 
 #home-key {
+  left: 96%;
   position: absolute;
-  width: 4%;
+  width: 3%;
 }
 
 a:link {
@@ -37,30 +44,52 @@ a:link {
 
 #projects {
   font-size: 10vw;
+  left: 10%;
   position: absolute;
+  padding: 10px;
+  background: white;
 }
 
 #assignments {
-  font-size: 4vw;
+  font-size: 6vw;
+  top: 40%;
+  left:50%;
   position: absolute;
+  padding: 10px;
+  background: white;
 }
 
 #try-outs {
-  font-size: 4vw;
+  font-size: 6vw;
+  top:65%;
+  left:15%;
   position: absolute;
+  padding: 10px;
+  background: white;
 }
 
 #about {
-  font-size: 6vw;
+  font-size: 4vw;
+  top: 70%;
+  left: 65%;
   position: absolute;
+  padding: 10px;
+  background: white;
 }
 
 #contact {
-  font-size: 2vw;
+  font-size: 1vw;
+  font-weight: bold;
+  top: 45%;
+  left:25%;
   position: absolute;
+  padding: 15px;
+  background: white;
 }
 
-
+#email {
+  text-decoration: underline;
+}
 
 @media only screen and (max-width: 600px) {
   body {
