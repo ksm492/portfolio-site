@@ -1,6 +1,7 @@
 html,
 body {
-  margin: 0;
+  display: block;
+  margin: auto;
   padding: 0;
 }
 
@@ -17,16 +18,16 @@ body {
 
 .content {
   display: block;
-  margin: 20%;
+  margin: 18%;
   position: absolute;
 }
 
 .animate-typing {
-  font-size: 72px;
+  font-size: 4vw;
 }
 
 p {
-  font-size: 32px;
+  font-size: 2vw;
   padding-bottom: 5%;
 }
 
