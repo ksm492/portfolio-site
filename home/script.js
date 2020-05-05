@@ -47,14 +47,6 @@ $(document).ready(function() {
     $("#contact").toggle()
   });
 
-  $("#about-title").mouseenter(function() {
-    $("body").css({"background-color": "#b9befd"})
-  });
-
-  $("#about-title").mouseleave(function() {
-    $("body").css({"background-color": "white"})
-  });
-
   $("#about-title").hover(function() {
     $("#projects-title").toggle(),
     $("#assignments-title").toggle(),
