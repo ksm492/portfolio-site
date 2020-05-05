@@ -16,7 +16,8 @@ body {
   background-repeat: repeat;
   background-size: cover;
   color: black;
-  font-family: 'Roboto', sans-serif;
+  font-family: helvetica;
+  font-weight: lighter;
 }
 
 a:link {
@@ -25,36 +26,38 @@ a:link {
 }
 
 #name {
-  font-family: helvetica;
-  font-weight: bold;
-  font-size: 2vw;
+  color: white;
+  background: black;
+  padding: 5px;
+  font-size: 1.5vw;
   position: absolute;
   left:0.75%;
 }
 
 #key {
-  top:1.25%;
+  top:1.5%;
   left:95.8%;
   position: absolute;
   width: 3.5%;
 }
 
-#projects {
+#projects-title {
   font-size: 10vw;
-  left:5%;
+  top:-5%;
+  left: 5%;
   position: absolute;
   padding-left: 15px;
   padding-right: 15px;
   background: white;
 }
 
-#projects:hover {
+#projects-title:hover {
   background: #73c2fb;
 }
 
-#assignments {
+#assignments-title {
   font-size: 6vw;
-  top: 38%;
+  top:30%;
   left:42%;
   position: absolute;
   padding-left: 15px;
@@ -63,11 +66,11 @@ a:link {
   letter-spacing: 1vw;
 }
 
-#assignments:hover {
+#assignments-title:hover {
   background: #f46a4e;
 }
 
-#try-outs {
+#try-outs-title {
   font-size: 8vw;
   top:40%;
   left:12%;
@@ -77,11 +80,11 @@ a:link {
   background: white;
 }
 
-#try-outs:hover {
+#try-outs-title:hover {
   background: #ffd700;
 }
 
-#about {
+#about-title {
   font-size: 4vw;
   top: 13%;
   left: 72%;
@@ -91,9 +94,12 @@ a:link {
   background: white;
 }
 
+#about-title:hover {
+  background: #737efb;
+}
+
 #contact {
   font-size: 1.5vw;
-  font-weight: bold;
   top: 70%;
   left:60%;
   position: absolute;

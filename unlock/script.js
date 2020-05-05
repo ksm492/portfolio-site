@@ -29,7 +29,8 @@ var transition = function() {
       top: "250",
       opacity: 0
     }, 1000, function() {
-      $("#key").remove()
+      $("#key").remove(),
+      $(".animate-typing").remove()
     });
 
     }

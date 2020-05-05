@@ -2,48 +2,63 @@ console.log("i'm here!");
 
 $(document).ready(function() {
 
-  $("#projects").mouseenter(function() {
+  $("#projects-title").mouseenter(function() {
     $("body").css({"background-color": "#b9e0fd"})
   });
 
-  $("#projects").mouseleave(function() {
+  $("#projects-title").mouseleave(function() {
     $("body").css({"background-color": "white"})
   });
 
-  $("#projects").hover(function() {
-    $("#assignments").toggle(),
-    $("#try-outs").toggle(),
-    $("#about").toggle(),
+  $("#projects-title").hover(function() {
+    $("#assignments-title").toggle(),
+    $("#try-outs-title").toggle(),
+    $("#about-title").toggle(),
     $("#contact").toggle()
   });
 
-  $("#assignments").mouseenter(function() {
+  $("#assignments-title").mouseenter(function() {
     $("body").css({"background-color": "#f9b4a6"})
   });
 
-  $("#assignments").mouseleave(function() {
+  $("#assignments-title").mouseleave(function() {
     $("body").css({"background-color": "white"})
   });
 
-  $("#assignments").hover(function() {
-    $("#projects").toggle(),
-    $("#try-outs").toggle(),
-    $("#about").toggle(),
+  $("#assignments-title").hover(function() {
+    $("#projects-title").toggle(),
+    $("#try-outs-title").toggle(),
+    $("#about-title").toggle(),
     $("#contact").toggle()
   });
 
-  $("#try-outs").mouseenter(function() {
+  $("#try-outs-title").mouseenter(function() {
     $("body").css({"background-color": "#ffeb7f"})
   });
 
-  $("#try-outs").mouseleave(function() {
+  $("#try-outs-title").mouseleave(function() {
     $("body").css({"background-color": "white"})
   });
 
-  $("#try-outs").hover(function() {
-    $("#projects").toggle(),
-    $("#assignments").toggle(),
-    $("#about").toggle(),
+  $("#try-outs-title").hover(function() {
+    $("#projects-title").toggle(),
+    $("#assignments-title").toggle(),
+    $("#about-title").toggle(),
+    $("#contact").toggle()
+  });
+
+  $("#about-title").mouseenter(function() {
+    $("body").css({"background-color": "#b9befd"})
+  });
+
+  $("#about-title").mouseleave(function() {
+    $("body").css({"background-color": "white"})
+  });
+
+  $("#about-title").hover(function() {
+    $("#projects-title").toggle(),
+    $("#assignments-title").toggle(),
+    $("#try-outs-title").toggle(),
     $("#contact").toggle()
   });
 
