@@ -3,7 +3,7 @@ console.log("i'm here!");
 $(document).ready(function() {
 
   $("#projects").mouseenter(function() {
-    $("body").css({"background-color": "cyan"})
+    $("body").css({"background-color": "#b9e0fd"})
   });
 
   $("#projects").mouseleave(function() {
@@ -18,7 +18,7 @@ $(document).ready(function() {
   });
 
   $("#assignments").mouseenter(function() {
-    $("body").css({"background-color": "magenta"})
+    $("body").css({"background-color": "#f9b4a6"})
   });
 
   $("#assignments").mouseleave(function() {
@@ -33,7 +33,7 @@ $(document).ready(function() {
   });
 
   $("#try-outs").mouseenter(function() {
-    $("body").css({"background-color": "yellow"})
+    $("body").css({"background-color": "#ffeb7f"})
   });
 
   $("#try-outs").mouseleave(function() {
