@@ -30,7 +30,8 @@ var transition = function() {
       opacity: 0
     }, 1000, function() {
       $("#key").remove(),
-      $(".animate-typing").remove()
+      $(".animate-typing").remove(),
+      $(".intro").remove()
     });
 
     }
