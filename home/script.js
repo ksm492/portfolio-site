@@ -11,6 +11,7 @@ $(document).ready(function() {
   });
 
   $("#projects-title").hover(function() {
+    $("#projects-text").toggle(),
     $("#assignments-title").toggle(),
     $("#try-outs-title").toggle(),
     $("#about-title").toggle(),
@@ -26,6 +27,7 @@ $(document).ready(function() {
   });
 
   $("#assignments-title").hover(function() {
+    $("#assignments-text").toggle(),
     $("#projects-title").toggle(),
     $("#try-outs-title").toggle(),
     $("#about-title").toggle(),
@@ -41,6 +43,7 @@ $(document).ready(function() {
   });
 
   $("#try-outs-title").hover(function() {
+    $("#try-outs-text").toggle(),
     $("#projects-title").toggle(),
     $("#assignments-title").toggle(),
     $("#about-title").toggle(),
@@ -48,6 +51,8 @@ $(document).ready(function() {
   });
 
   $("#about-title").hover(function() {
+    $("#about-text").toggle(),
+    $("#about-image").toggle(),
     $("#projects-title").toggle(),
     $("#assignments-title").toggle(),
     $("#try-outs-title").toggle(),

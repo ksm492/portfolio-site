@@ -25,13 +25,17 @@ var transition = function() {
       }
     });
 
-    $("#key").animate({
+    $("#key").fadeIn()
+    .css({
+        position: "relative"
+      })
+    .animate({
       top: "250",
       opacity: 0
     }, 1000, function() {
       $("#key").remove(),
-      $(".animate-typing").remove(),
-      $(".intro").remove()
+      $("#animate-typing").remove(),
+      $("#introduction").remove()
     });
 
     }

@@ -19,7 +19,10 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-a:link {
+a:link,
+a:visited,
+a:hover,
+a:active {
   color: black;
   text-decoration: none;
 }
@@ -29,87 +32,138 @@ a:link {
   background: black;
   padding: 5px;
   font-size: 1.5vw;
-  position: absolute;
-  left:0.75%;
+  position: fixed;
+  left: 96%;
 }
 
 #key {
-  top:2%;
-  left:95.8%;
-  position: absolute;
-  width: 3%;
+  top: 1.5%;
+  left: 0.5%;
+  position: fixed;
+  width: 3.25%;
+}
+
+.projects {
+  top: 20%;
+  left: 5%;
+  position: fixed;
 }
 
 #projects-title {
   font-size: 10vw;
-  top:-5%;
-  left: 5%;
-  position: absolute;
-  padding-left: 15px;
-  padding-right: 15px;
   background: white;
+  margin-bottom: 0;
 }
 
 #projects-title:hover {
   background: #73c2fb;
 }
 
+#projects-text {
+  display: none;
+  font-size: 2vw;
+  background: white;
+  margin-top: 0;
+}
+
+.assignments {
+  top: 3%;
+  left: 45%;
+  position: fixed;
+}
+
 #assignments-title {
   font-size: 6vw;
-  top:30%;
-  left:42%;
-  position: absolute;
-  padding-left: 15px;
-  padding-right: 15px;
-  background: white;
   letter-spacing: 1vw;
+  background: white;
+  margin-bottom: 0;
 }
 
 #assignments-title:hover {
   background: #f46a4e;
 }
 
+#assignments-text {
+  display: none;
+  font-size: 2vw;
+  background: white;
+  margin-top: 0;
+}
+
+.try-outs {
+  top: 28%;
+  left: 65%;
+  position: fixed;
+}
+
 #try-outs-title {
   font-size: 9vw;
-  top:35%;
-  left:12%;
-  position: absolute;
-  padding-left: 15px;
-  padding-right: 15px;
   background: white;
+  margin-bottom: 0;
 }
 
 #try-outs-title:hover {
   background: #ffd700;
 }
 
+#try-outs-text {
+  display: none;
+  font-size: 1.75vw;
+  background: white;
+  margin-top: 0;
+}
+
+.about {
+  top: 8%;
+  left: 15%;
+  position: fixed;
+}
+
 #about-title {
   font-size: 4vw;
-  top: 13%;
-  left: 72%;
-  position: absolute;
-  padding-left: 15px;
-  padding-right: 15px;
   background: white;
+  margin-bottom: 0;
+}
+
+#about-text {
+  display: none;
+  font-size: 1.25vw;
+  background: white;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.limit {
+  max-width: 420px;
+  word-wrap: break-word;
+}
+
+#about-image {
+  display: none;
+  margin-top: 0;
 }
 
 #contact {
   font-size: 1.5vw;
-  top: 70%;
-  left:60%;
-  position: absolute;
+  top: 75%;
+  left: 28%;
+  position: fixed;
   padding-left: 15px;
   padding-right: 15px;
+  padding-bottom: 15px;
   background: white;
 }
 
 #email:hover,
-#phone:hover {
+#social:hover {
   background-color: black;
   color: white;
 }
 
+.inline {
+  display: inline;
+}
+
 @media only screen and (max-width: 600px) {
-  body {
-  }
+  body {}
 }
