@@ -44,7 +44,24 @@ body {
 @media only screen and (max-width: 600px) {
   .content {
     display: block;
-    margin: 15%;
+    top:25%;
+    margin: 18%;
     position: fixed;
+  }
+
+  #animate-typing {
+    font-size: 6vw;
+  }
+
+  #introduction {
+    font-size: 3vw;
+    margin-bottom:8%;
+  }
+
+  #key {
+    display: block;
+    margin:auto;
+    width: 20%;
+    filter: invert(100);
   }
 }
