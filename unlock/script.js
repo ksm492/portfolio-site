@@ -2,7 +2,7 @@ console.log("hello world!");
 
 $(document).ready(function() {
 
-var transition = function() {
+  var transition = function() {
 
     $("body").css({
       "background-color": "white",
@@ -13,7 +13,7 @@ var transition = function() {
       "filter": "invert(0)"
     });
 
-  // Credit for jQuery Rotation Animation: https://codepen.io/seeker5084/pen/VMQGwX
+    // Credit for jQuery Rotation Animation: https://codepen.io/seeker5084/pen/VMQGwX
     $('#key').animate({
       deg: 90
     }, {
@@ -26,26 +26,26 @@ var transition = function() {
     });
 
     $("#key").fadeIn()
-    .css({
+      .css({
         position: "relative"
       })
-    .animate({
-      top: "250",
-      opacity: 0
-    }, 1000, function() {
-      $("#key").remove(),
-      $("#animate-typing").remove(),
-      $("#introduction").remove()
-    });
+      .animate({
+        top: "250",
+        opacity: 0
+      }, 1000, function() {
+        $("#key").remove(),
+          $("#animate-typing").remove(),
+          $("#introduction").remove()
+      });
 
-    }
+  }
 
-    $("#key").on("click", function() {
-      transition();
-    });
+  $("#key").on("click", function() {
+    transition();
+  });
 
-// Credit for transition for animation to complete: https://forum.webflow.com/t/delay-page-transition-for-animation-to-complete/52793
-   $("#key").on("click", function(e) {
+  // Credit for transition for animation to complete: https://forum.webflow.com/t/delay-page-transition-for-animation-to-complete/52793
+  $("#key").on("click", function(e) {
     e.preventDefault();
     var linkUrl = $("a").attr('href');
     setTimeout(function(url) {

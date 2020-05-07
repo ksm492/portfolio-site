@@ -26,12 +26,12 @@ body {
 
 #introduction {
   font-size: 2vw;
-  margin-bottom:5%;
+  margin-bottom: 5%;
 }
 
 #key {
   display: block;
-  margin:auto;
+  margin: auto;
   width: 15%;
   filter: invert(100);
 }
@@ -40,11 +40,10 @@ body {
   cursor: pointer;
 }
 
-
 @media only screen and (max-width: 600px) {
   .content {
     display: block;
-    top:25%;
+    top: 25%;
     margin: 18%;
     position: fixed;
   }
@@ -55,12 +54,12 @@ body {
 
   #introduction {
     font-size: 3vw;
-    margin-bottom:8%;
+    margin-bottom: 8%;
   }
 
   #key {
     display: block;
-    margin:auto;
+    margin: auto;
     width: 20%;
     filter: invert(100);
   }

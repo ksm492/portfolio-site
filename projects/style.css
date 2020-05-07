@@ -9,9 +9,44 @@ body {
 }
 
 body {
+  background-image: url("../web-images/grid.png");
+  height: 100%;
+  background-color: #b9e0fd;
+  background-position: top;
+  background-repeat: repeat;
+  background-size: cover;
+  color: black;
+  font-family: "Roboto", sans-serif;
+}
+
+#name {
+  color: white;
+  background: black;
+  padding: 5px;
+  font-size: 1.5vw;
+  position: fixed;
+  left: 96%;
+}
+
+#back {
+  color: white;
+  background: black;
+  padding: 5px;
+  font-size: 1.5vw;
+  position: fixed;
+  left: 1%;
+}
+
+.content {}
+
+#projects {
+  font-size: 4vw;
+  background: #73c2fb;
+  padding: 5px;
+  top: 5%;
+  position: fixed;
 }
 
 @media only screen and (max-width: 600px) {
-  body {
-  }
+  body {}
 }
