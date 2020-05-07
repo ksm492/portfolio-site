@@ -41,12 +41,12 @@ body {
   font-size: 5vw;
   background: #73c2fb;
   padding: 5px;
-  margin-top: 5%;
+  margin-top: 7%;
   position: absolute;
 }
 
 .cd-jackets {
-  top: 20%;
+  top: 25%;
   position: absolute;
 }
 
@@ -105,7 +105,7 @@ body {
     font-size: 8vw;
     background: #73c2fb;
     padding: 5px;
-    margin-top: 10%;
+    top: 2%;
     position: absolute;
   }
 
@@ -142,6 +142,6 @@ body {
   .column img {
     margin: 1.75vw;
     vertical-align: middle;
-    border: 0.5vw solid white;
+    border: 1vw solid white;
   }
 }
