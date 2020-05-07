@@ -24,7 +24,7 @@ body {
   background: black;
   padding: 5px;
   font-size: 1.5vw;
-  position: fixed;
+  position: absolute;
   left: 96%;
 }
 
@@ -33,20 +33,56 @@ body {
   background: black;
   padding: 5px;
   font-size: 1.5vw;
-  position: fixed;
+  position: absolute;
   left: 1%;
 }
 
-.content {}
-
 #projects {
-  font-size: 4vw;
+  font-size: 5vw;
   background: #73c2fb;
   padding: 5px;
-  top: 5%;
-  position: fixed;
+  margin-top: 5%;
+  position: absolute;
 }
 
+.cd-jackets {
+  top: 20%;
+  position: absolute;
+}
+
+#title {
+  font-size: 2vw;
+  background: white;
+  padding: 10px;
+  margin-bottom: 0;
+}
+
+#description {
+  font-size: 1vw;
+  background: white;
+  padding: 10px;
+  margin-top: 0;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin: 1.75vw;
+  vertical-align: middle;
+  border: 0.5vw solid white;
+}
+
+
 @media only screen and (max-width: 600px) {
-  body {}
+  body {
+  }
 }
