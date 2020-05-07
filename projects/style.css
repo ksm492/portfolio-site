@@ -83,6 +83,65 @@ body {
 
 
 @media only screen and (max-width: 600px) {
-  body {
+  #name {
+    color: white;
+    background: black;
+    padding: 5px;
+    font-size: 1.5vw;
+    position: absolute;
+    left: 94%;
+  }
+
+  #back {
+    color: white;
+    background: black;
+    padding: 5px;
+    font-size: 1.5vw;
+    position: absolute;
+    left: 1%;
+  }
+
+  #projects {
+    font-size: 8vw;
+    background: #73c2fb;
+    padding: 5px;
+    margin-top: 10%;
+    position: absolute;
+  }
+
+  .cd-jackets {
+    top: 12%;
+    position: absolute;
+  }
+
+  #title {
+    font-size: 4vw;
+    background: white;
+    padding: 5px;
+    margin-bottom: 0;
+  }
+
+  #description {
+    font-size: 2vw;
+    background: white;
+    padding: 5px;
+    margin-top: 0;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+
+  .column {
+    flex: 50%;
+    padding: 0 4px;
+  }
+
+  .column img {
+    margin: 1.75vw;
+    vertical-align: middle;
+    border: 0.5vw solid white;
   }
 }
