@@ -39,7 +39,7 @@ body {
 
 #projects {
   font-size: 5vw;
-  background: #73c2fb;
+  background: #73c2fb;;
   padding: 5px;
   margin-top: 7%;
   position: absolute;
@@ -105,7 +105,7 @@ body {
     font-size: 8vw;
     background: #73c2fb;
     padding: 5px;
-    top: 2%;
+    margin-top: 10%;
     position: absolute;
   }
 
